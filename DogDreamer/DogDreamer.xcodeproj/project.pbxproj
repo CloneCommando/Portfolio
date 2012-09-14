@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0E8CF715053CD00097121F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0E8CF615053CD00097121F /* UIKit.framework */; };
+		4A0E8CF915053CD10097121F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0E8CF815053CD00097121F /* Foundation.framework */; };
+		4A0E8CFB15053CD10097121F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0E8CFA15053CD10097121F /* CoreGraphics.framework */; };
+		4A0E8D0115053CD10097121F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E8CFF15053CD10097121F /* InfoPlist.strings */; };
+		4A0E8D0315053CD10097121F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0E8D0215053CD10097121F /* main.m */; };
+		4A0E8D0715053CD10097121F /* DogDreamerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0E8D0615053CD10097121F /* DogDreamerAppDelegate.m */; };
+		4A0E8D1915053D5F0097121F /* MainMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0E8D1715053D5F0097121F /* MainMenuVC.m */; };
+		4A0E8D1A15053D5F0097121F /* MainMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E8D1815053D5F0097121F /* MainMenuVC.xib */; };
+		4A0E8D2115053E170097121F /* background_sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E8D1D15053E170097121F /* background_sky.png */; };
+		4A0E8D2215053E170097121F /* button_bone_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E8D1E15053E170097121F /* button_bone_down.png */; };
+		4A0E8D2315053E170097121F /* button_bone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E8D1F15053E170097121F /* button_bone.png */; };
+		4A0E8D2415053E170097121F /* red_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E8D2015053E170097121F /* red_dog.png */; };
+		4A1EB5B715069E2600ADE693 /* WorldObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB5B615069E2600ADE693 /* WorldObject.m */; };
+		4A1EB5BA1506A25700ADE693 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EB5B91506A25700ADE693 /* Dog.m */; };
+		4A4E84A01509453900467DE7 /* HighScoresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E849E1509453900467DE7 /* HighScoresVC.m */; };
+		4A4E84A11509453900467DE7 /* HighScoresVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E849F1509453900467DE7 /* HighScoresVC.xib */; };
+		4A4E84A41509581C00467DE7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4E84A31509581C00467DE7 /* AVFoundation.framework */; };
+		4A4E84A71509584400467DE7 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E84A61509584400467DE7 /* SoundManager.m */; };
+		4A4E84B015095C3200467DE7 /* Internationale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84AF15095C3200467DE7 /* Internationale.mp3 */; };
+		4A4E84B2150967DE00467DE7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84B1150967DE00467DE7 /* background.png */; };
+		4A4E84B415096C2100467DE7 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84B315096C2100467DE7 /* cloud.png */; };
+		4A4E84B615096C2E00467DE7 /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84B515096C2E00467DE7 /* cloud2.png */; };
+		4A4E84B8150976F200467DE7 /* Jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84B7150976F200467DE7 /* Jump.mp3 */; };
+		4A4E84BA15097C9F00467DE7 /* dog_dreamer_icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84B915097C9E00467DE7 /* dog_dreamer_icon_retina.png */; };
+		4A4E84BC15097CA500467DE7 /* dog_dreamer_icon_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84BB15097CA500467DE7 /* dog_dreamer_icon_regular.png */; };
+		4A4E84BE15097CAB00467DE7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84BD15097CAB00467DE7 /* Default@2x.png */; };
+		4A4E84C015097CB100467DE7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84BF15097CB000467DE7 /* Default.png */; };
+		4A4E84C215098AB000467DE7 /* GarbageCan_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84C115098AB000467DE7 /* GarbageCan_Up.png */; };
+		4A4E84C415098ABB00467DE7 /* GarbageCan_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84C315098ABB00467DE7 /* GarbageCan_Down.png */; };
+		4A4E84C615098BD600467DE7 /* Crash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84C515098BD600467DE7 /* Crash.mp3 */; };
+		4A4E84C815098E7500467DE7 /* Bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E84C715098E7500467DE7 /* Bell.mp3 */; };
+		4A4E84CB15098F7500467DE7 /* TrashCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E84CA15098F7500467DE7 /* TrashCan.m */; };
+		4A8B58D21507C9FD00E96D70 /* Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B58D11507C9FD00E96D70 /* Controls.m */; };
+		4A8B58D61507DB2F00E96D70 /* Bone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B58D51507DB2F00E96D70 /* Bone.m */; };
+		4A8B58DD1507E66700E96D70 /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B58DC1507E66700E96D70 /* GameLevel.m */; };
+		4A8B58E415083ED100E96D70 /* SavedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B58E315083ED100E96D70 /* SavedData.m */; };
+		4A8B58E81508456100E96D70 /* InstructionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B58E61508456100E96D70 /* InstructionsVC.m */; };
+		4A8B58E91508456100E96D70 /* InstructionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8B58E71508456100E96D70 /* InstructionsVC.xib */; };
+		4A8B58F61508525700E96D70 /* OptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B58F41508525700E96D70 /* OptionsVC.m */; };
+		4A8B58F71508525700E96D70 /* OptionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8B58F51508525700E96D70 /* OptionsVC.xib */; };
+		4AB574D21505551200837610 /* GameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB574D11505551200837610 /* GameVC.m */; };
+		4AB574DD15056FB600837610 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB574DC15056FB600837610 /* arrow.png */; };
+		4AB574DF1505873D00837610 /* arrow_onDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB574DE1505873D00837610 /* arrow_onDown.png */; };
+		4AB574E31505917500837610 /* moon_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB574E01505917500837610 /* moon_up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0E8CF215053CD00097121F /* DogDreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogDreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0E8CF615053CD00097121F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A0E8CF815053CD00097121F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A0E8CFA15053CD10097121F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A0E8CFE15053CD10097121F /* DogDreamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogDreamer-Info.plist"; sourceTree = "<group>"; };
+		4A0E8D0015053CD10097121F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A0E8D0215053CD10097121F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0E8D0415053CD10097121F /* DogDreamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogDreamer-Prefix.pch"; sourceTree = "<group>"; };
+		4A0E8D0515053CD10097121F /* DogDreamerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogDreamerAppDelegate.h; sourceTree = "<group>"; };
+		4A0E8D0615053CD10097121F /* DogDreamerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogDreamerAppDelegate.m; sourceTree = "<group>"; };
+		4A0E8D1615053D5F0097121F /* MainMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuVC.h; sourceTree = "<group>"; };
+		4A0E8D1715053D5F0097121F /* MainMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuVC.m; sourceTree = "<group>"; };
+		4A0E8D1815053D5F0097121F /* MainMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuVC.xib; sourceTree = "<group>"; };
+		4A0E8D1D15053E170097121F /* background_sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_sky.png; sourceTree = "<group>"; };
+		4A0E8D1E15053E170097121F /* button_bone_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bone_down.png; sourceTree = "<group>"; };
+		4A0E8D1F15053E170097121F /* button_bone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bone.png; sourceTree = "<group>"; };
+		4A0E8D2015053E170097121F /* red_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dog.png; sourceTree = "<group>"; };
+		4A1EB5B515069E2600ADE693 /* WorldObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldObject.h; sourceTree = "<group>"; };
+		4A1EB5B615069E2600ADE693 /* WorldObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldObject.m; sourceTree = "<group>"; };
+		4A1EB5B81506A25700ADE693 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		4A1EB5B91506A25700ADE693 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		4A4E849D1509453900467DE7 /* HighScoresVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresVC.h; sourceTree = "<group>"; };
+		4A4E849E1509453900467DE7 /* HighScoresVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresVC.m; sourceTree = "<group>"; };
+		4A4E849F1509453900467DE7 /* HighScoresVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoresVC.xib; sourceTree = "<group>"; };
+		4A4E84A31509581C00467DE7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A4E84A51509584400467DE7 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		4A4E84A61509584400467DE7 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		4A4E84AF15095C3200467DE7 /* Internationale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Internationale.mp3; sourceTree = "<group>"; };
+		4A4E84B1150967DE00467DE7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4A4E84B315096C2100467DE7 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		4A4E84B515096C2E00467DE7 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		4A4E84B7150976F200467DE7 /* Jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jump.mp3; sourceTree = "<group>"; };
+		4A4E84B915097C9E00467DE7 /* dog_dreamer_icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog_dreamer_icon_retina.png; sourceTree = "<group>"; };
+		4A4E84BB15097CA500467DE7 /* dog_dreamer_icon_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog_dreamer_icon_regular.png; sourceTree = "<group>"; };
+		4A4E84BD15097CAB00467DE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4A4E84BF15097CB000467DE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4A4E84C115098AB000467DE7 /* GarbageCan_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GarbageCan_Up.png; sourceTree = "<group>"; };
+		4A4E84C315098ABB00467DE7 /* GarbageCan_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GarbageCan_Down.png; sourceTree = "<group>"; };
+		4A4E84C515098BD600467DE7 /* Crash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash.mp3; sourceTree = "<group>"; };
+		4A4E84C715098E7500467DE7 /* Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bell.mp3; sourceTree = "<group>"; };
+		4A4E84C915098F7400467DE7 /* TrashCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrashCan.h; sourceTree = "<group>"; };
+		4A4E84CA15098F7500467DE7 /* TrashCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrashCan.m; sourceTree = "<group>"; };
+		4A8B58D01507C9FD00E96D70 /* Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controls.h; sourceTree = "<group>"; };
+		4A8B58D11507C9FD00E96D70 /* Controls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controls.m; sourceTree = "<group>"; };
+		4A8B58D41507DB2F00E96D70 /* Bone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bone.h; sourceTree = "<group>"; };
+		4A8B58D51507DB2F00E96D70 /* Bone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bone.m; sourceTree = "<group>"; };
+		4A8B58DB1507E66700E96D70 /* GameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevel.h; sourceTree = "<group>"; };
+		4A8B58DC1507E66700E96D70 /* GameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevel.m; sourceTree = "<group>"; };
+		4A8B58E215083ED100E96D70 /* SavedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedData.h; sourceTree = "<group>"; };
+		4A8B58E315083ED100E96D70 /* SavedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedData.m; sourceTree = "<group>"; };
+		4A8B58E51508456100E96D70 /* InstructionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsVC.h; sourceTree = "<group>"; };
+		4A8B58E61508456100E96D70 /* InstructionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsVC.m; sourceTree = "<group>"; };
+		4A8B58E71508456100E96D70 /* InstructionsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsVC.xib; sourceTree = "<group>"; };
+		4A8B58F31508525700E96D70 /* OptionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsVC.h; sourceTree = "<group>"; };
+		4A8B58F41508525700E96D70 /* OptionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsVC.m; sourceTree = "<group>"; };
+		4A8B58F51508525700E96D70 /* OptionsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsVC.xib; sourceTree = "<group>"; };
+		4AB574D01505551200837610 /* GameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameVC.h; sourceTree = "<group>"; };
+		4AB574D11505551200837610 /* GameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameVC.m; sourceTree = "<group>"; };
+		4AB574DC15056FB600837610 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		4AB574DE1505873D00837610 /* arrow_onDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_onDown.png; sourceTree = "<group>"; };
+		4AB574E01505917500837610 /* moon_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon_up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0E8CEF15053CD00097121F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4E84A41509581C00467DE7 /* AVFoundation.framework in Frameworks */,
+				4A0E8CF715053CD00097121F /* UIKit.framework in Frameworks */,
+				4A0E8CF915053CD10097121F /* Foundation.framework in Frameworks */,
+				4A0E8CFB15053CD10097121F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0E8CE715053CD00097121F = {
+			isa = PBXGroup;
+			children = (
+				4A4E84BF15097CB000467DE7 /* Default.png */,
+				4A4E84BD15097CAB00467DE7 /* Default@2x.png */,
+				4A4E84BB15097CA500467DE7 /* dog_dreamer_icon_regular.png */,
+				4A4E84B915097C9E00467DE7 /* dog_dreamer_icon_retina.png */,
+				4A0E8CFC15053CD10097121F /* DogDreamer */,
+				4A0E8CF515053CD00097121F /* Frameworks */,
+				4A0E8CF315053CD00097121F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0E8CF315053CD00097121F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0E8CF215053CD00097121F /* DogDreamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0E8CF515053CD00097121F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E84A31509581C00467DE7 /* AVFoundation.framework */,
+				4A0E8CF615053CD00097121F /* UIKit.framework */,
+				4A0E8CF815053CD00097121F /* Foundation.framework */,
+				4A0E8CFA15053CD10097121F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A0E8CFC15053CD10097121F /* DogDreamer */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E84A8150958F500467DE7 /* Sounds */,
+				4A0E8D1C15053DDB0097121F /* Images */,
+				4A1EB5B315069DF100ADE693 /* Models */,
+				4A0E8D1B15053D640097121F /* ViewControllers */,
+				4A0E8D0515053CD10097121F /* DogDreamerAppDelegate.h */,
+				4A0E8D0615053CD10097121F /* DogDreamerAppDelegate.m */,
+				4A0E8CFD15053CD10097121F /* Supporting Files */,
+			);
+			path = DogDreamer;
+			sourceTree = "<group>";
+		};
+		4A0E8CFD15053CD10097121F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0E8CFE15053CD10097121F /* DogDreamer-Info.plist */,
+				4A0E8CFF15053CD10097121F /* InfoPlist.strings */,
+				4A0E8D0215053CD10097121F /* main.m */,
+				4A0E8D0415053CD10097121F /* DogDreamer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0E8D1B15053D640097121F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AB574D01505551200837610 /* GameVC.h */,
+				4AB574D11505551200837610 /* GameVC.m */,
+				4A4E849D1509453900467DE7 /* HighScoresVC.h */,
+				4A4E849E1509453900467DE7 /* HighScoresVC.m */,
+				4A4E849F1509453900467DE7 /* HighScoresVC.xib */,
+				4A8B58E51508456100E96D70 /* InstructionsVC.h */,
+				4A8B58E61508456100E96D70 /* InstructionsVC.m */,
+				4A8B58E71508456100E96D70 /* InstructionsVC.xib */,
+				4A0E8D1615053D5F0097121F /* MainMenuVC.h */,
+				4A0E8D1715053D5F0097121F /* MainMenuVC.m */,
+				4A0E8D1815053D5F0097121F /* MainMenuVC.xib */,
+				4A8B58F31508525700E96D70 /* OptionsVC.h */,
+				4A8B58F41508525700E96D70 /* OptionsVC.m */,
+				4A8B58F51508525700E96D70 /* OptionsVC.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4A0E8D1C15053DDB0097121F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4AB574DC15056FB600837610 /* arrow.png */,
+				4AB574DE1505873D00837610 /* arrow_onDown.png */,
+				4A4E84B1150967DE00467DE7 /* background.png */,
+				4A0E8D1D15053E170097121F /* background_sky.png */,
+				4A0E8D1E15053E170097121F /* button_bone_down.png */,
+				4A0E8D1F15053E170097121F /* button_bone.png */,
+				4A4E84B315096C2100467DE7 /* cloud.png */,
+				4A4E84B515096C2E00467DE7 /* cloud2.png */,
+				4A4E84C115098AB000467DE7 /* GarbageCan_Up.png */,
+				4A4E84C315098ABB00467DE7 /* GarbageCan_Down.png */,
+				4AB574E01505917500837610 /* moon_up.png */,
+				4A0E8D2015053E170097121F /* red_dog.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4A1EB5B315069DF100ADE693 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A8B58D41507DB2F00E96D70 /* Bone.h */,
+				4A8B58D51507DB2F00E96D70 /* Bone.m */,
+				4A8B58D01507C9FD00E96D70 /* Controls.h */,
+				4A8B58D11507C9FD00E96D70 /* Controls.m */,
+				4A1EB5B81506A25700ADE693 /* Dog.h */,
+				4A1EB5B91506A25700ADE693 /* Dog.m */,
+				4A8B58DB1507E66700E96D70 /* GameLevel.h */,
+				4A8B58DC1507E66700E96D70 /* GameLevel.m */,
+				4A8B58E215083ED100E96D70 /* SavedData.h */,
+				4A8B58E315083ED100E96D70 /* SavedData.m */,
+				4A4E84A51509584400467DE7 /* SoundManager.h */,
+				4A4E84A61509584400467DE7 /* SoundManager.m */,
+				4A4E84C915098F7400467DE7 /* TrashCan.h */,
+				4A4E84CA15098F7500467DE7 /* TrashCan.m */,
+				4A1EB5B515069E2600ADE693 /* WorldObject.h */,
+				4A1EB5B615069E2600ADE693 /* WorldObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4A4E84A8150958F500467DE7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E84C715098E7500467DE7 /* Bell.mp3 */,
+				4A4E84C515098BD600467DE7 /* Crash.mp3 */,
+				4A4E84AF15095C3200467DE7 /* Internationale.mp3 */,
+				4A4E84B7150976F200467DE7 /* Jump.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0E8CF115053CD00097121F /* DogDreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0E8D0A15053CD10097121F /* Build configuration list for PBXNativeTarget "DogDreamer" */;
+			buildPhases = (
+				4A0E8CEE15053CD00097121F /* Sources */,
+				4A0E8CEF15053CD00097121F /* Frameworks */,
+				4A0E8CF015053CD00097121F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogDreamer;
+			productName = DogDreamer;
+			productReference = 4A0E8CF215053CD00097121F /* DogDreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0E8CE915053CD00097121F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A0E8CEC15053CD00097121F /* Build configuration list for PBXProject "DogDreamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A0E8CE715053CD00097121F;
+			productRefGroup = 4A0E8CF315053CD00097121F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0E8CF115053CD00097121F /* DogDreamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0E8CF015053CD00097121F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0E8D0115053CD10097121F /* InfoPlist.strings in Resources */,
+				4A0E8D1A15053D5F0097121F /* MainMenuVC.xib in Resources */,
+				4A0E8D2115053E170097121F /* background_sky.png in Resources */,
+				4A0E8D2215053E170097121F /* button_bone_down.png in Resources */,
+				4A0E8D2315053E170097121F /* button_bone.png in Resources */,
+				4A0E8D2415053E170097121F /* red_dog.png in Resources */,
+				4AB574DD15056FB600837610 /* arrow.png in Resources */,
+				4AB574DF1505873D00837610 /* arrow_onDown.png in Resources */,
+				4AB574E31505917500837610 /* moon_up.png in Resources */,
+				4A8B58E91508456100E96D70 /* InstructionsVC.xib in Resources */,
+				4A8B58F71508525700E96D70 /* OptionsVC.xib in Resources */,
+				4A4E84A11509453900467DE7 /* HighScoresVC.xib in Resources */,
+				4A4E84B015095C3200467DE7 /* Internationale.mp3 in Resources */,
+				4A4E84B2150967DE00467DE7 /* background.png in Resources */,
+				4A4E84B415096C2100467DE7 /* cloud.png in Resources */,
+				4A4E84B615096C2E00467DE7 /* cloud2.png in Resources */,
+				4A4E84B8150976F200467DE7 /* Jump.mp3 in Resources */,
+				4A4E84BA15097C9F00467DE7 /* dog_dreamer_icon_retina.png in Resources */,
+				4A4E84BC15097CA500467DE7 /* dog_dreamer_icon_regular.png in Resources */,
+				4A4E84BE15097CAB00467DE7 /* Default@2x.png in Resources */,
+				4A4E84C015097CB100467DE7 /* Default.png in Resources */,
+				4A4E84C215098AB000467DE7 /* GarbageCan_Up.png in Resources */,
+				4A4E84C415098ABB00467DE7 /* GarbageCan_Down.png in Resources */,
+				4A4E84C615098BD600467DE7 /* Crash.mp3 in Resources */,
+				4A4E84C815098E7500467DE7 /* Bell.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0E8CEE15053CD00097121F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0E8D0315053CD10097121F /* main.m in Sources */,
+				4A0E8D0715053CD10097121F /* DogDreamerAppDelegate.m in Sources */,
+				4A0E8D1915053D5F0097121F /* MainMenuVC.m in Sources */,
+				4AB574D21505551200837610 /* GameVC.m in Sources */,
+				4A1EB5B715069E2600ADE693 /* WorldObject.m in Sources */,
+				4A1EB5BA1506A25700ADE693 /* Dog.m in Sources */,
+				4A8B58D21507C9FD00E96D70 /* Controls.m in Sources */,
+				4A8B58D61507DB2F00E96D70 /* Bone.m in Sources */,
+				4A8B58DD1507E66700E96D70 /* GameLevel.m in Sources */,
+				4A8B58E415083ED100E96D70 /* SavedData.m in Sources */,
+				4A8B58E81508456100E96D70 /* InstructionsVC.m in Sources */,
+				4A8B58F61508525700E96D70 /* OptionsVC.m in Sources */,
+				4A4E84A01509453900467DE7 /* HighScoresVC.m in Sources */,
+				4A4E84A71509584400467DE7 /* SoundManager.m in Sources */,
+				4A4E84CB15098F7500467DE7 /* TrashCan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A0E8CFF15053CD10097121F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0E8D0015053CD10097121F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0E8D0815053CD10097121F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A0E8D0915053CD10097121F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0E8D0B15053CD10097121F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogDreamer/DogDreamer-Prefix.pch";
+				INFOPLIST_FILE = "DogDreamer/DogDreamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A0E8D0C15053CD10097121F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogDreamer/DogDreamer-Prefix.pch";
+				INFOPLIST_FILE = "DogDreamer/DogDreamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0E8CEC15053CD00097121F /* Build configuration list for PBXProject "DogDreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0E8D0815053CD10097121F /* Debug */,
+				4A0E8D0915053CD10097121F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0E8D0A15053CD10097121F /* Build configuration list for PBXNativeTarget "DogDreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0E8D0B15053CD10097121F /* Debug */,
+				4A0E8D0C15053CD10097121F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0E8CE915053CD00097121F /* Project object */;
+}

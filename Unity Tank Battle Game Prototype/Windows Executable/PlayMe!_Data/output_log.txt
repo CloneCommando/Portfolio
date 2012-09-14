@@ -1,0 +1,18 @@
+Mono path[0] = 'C:/Users/Thomas Colligan/Desktop/Colligan_Thomas_Portfolio/Unity Tank Battle Game Prototype/Final3DWorld/PlayMe!_Data/Managed'
+Mono path[1] = 'C:/Users/Thomas Colligan/Desktop/Colligan_Thomas_Portfolio/Unity Tank Battle Game Prototype/Final3DWorld/PlayMe!_Data/Mono'
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 8.17.12.8562]
+    Renderer: NVIDIA GeForce 8800M GTS
+    Vendor:   NVIDIA
+    VRAM:     512 MB
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+Non platform assembly: data-02F18280 (this message is harmless)
+Non platform assembly: data-02F7AAC0 (this message is harmless)
+Non platform assembly: data-02F85DE0 (this message is harmless)
+Non platform assembly: data-02F8E100 (this message is harmless)
+   
+Unloading 12995 unused Assets to reduce memory usage. Loaded Objects now: 139.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)

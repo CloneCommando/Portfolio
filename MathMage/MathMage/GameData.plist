@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Difficulty</key>
+	<string>Normal</string>
+	<key>AudioLevel</key>
+	<real>1</real>
+	<key>HighScores</key>
+	<dict>
+		<key>Addition_CorrectAnswers</key>
+		<integer>0</integer>
+		<key>Addition_TotalQuestions</key>
+		<integer>0</integer>
+		<key>Addition_BestTime</key>
+		<integer>0</integer>
+		<key>Subtraction_CorrectAnswers</key>
+		<integer>0</integer>
+		<key>Subtraction_TotalQuestions</key>
+		<integer>0</integer>
+		<key>Subtraction_BestTime</key>
+		<integer>0</integer>
+		<key>Multiplication_CorrectAnswers</key>
+		<integer>0</integer>
+		<key>Multiplication_TotalQuestions</key>
+		<integer>0</integer>
+		<key>Multiplication_BestTime</key>
+		<integer>0</integer>
+		<key>Division_CorrectAnswers</key>
+		<integer>0</integer>
+		<key>Division_TotalQuestions</key>
+		<integer>0</integer>
+		<key>Division_BestTime</key>
+		<integer>0</integer>
+		<key>Mixed_CorrectAnswers</key>
+		<integer>0</integer>
+		<key>Mixed_TotalQuestions</key>
+		<integer>0</integer>
+		<key>Mixed_BestTime</key>
+		<integer>0</integer>
+		<key>Custom_CorrectAnswers</key>
+		<integer>0</integer>
+		<key>Custom_TotalQuestions</key>
+		<integer>0</integer>
+		<key>Custom_BestTime</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

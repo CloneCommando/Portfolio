@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<string>4 / 2</string>
+		<string>9 / 3</string>
+		<string>12 / 4</string>
+		<string>8 / 2</string>
+		<string>16 / 4</string>
+		<string>21 / 7</string>
+		<string>6 / 6</string>
+		<string>24 / 4</string>
+		<string>1 / 2</string>
+		<string>2 / 4</string>
+		<string>1 / 4</string>
+		<string>3 / 4</string>
+		<string>9 / 10</string>
+		<string>6 / 5</string>
+		<string>10 / 5</string>
+		<string>50 / 10</string>
+		<string>100 / 5</string>
+		<string>100 / 2</string>
+		<string>100 / 3</string>
+		<string>16 / 2</string>
+		<string>80 / 8</string>
+		<string>28 / 7</string>
+		<string>2 / 3</string>
+		<string>3 / 2</string>
+		<string>9 / 3</string>
+	</array>
+</dict>
+</plist>
